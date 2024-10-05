@@ -61,6 +61,7 @@ def find_heading_position(text, heading):
 def summarize_text(text, heading):
     api_key = os.getenv('OPENAI_API_KEY')  
     endpoint = os.getenv('API_END_POINT')  
+    st.write(f"Endpoint: {endpoint}")
     
     headers = {
         'Content-Type': 'application/json',
