@@ -64,4 +64,4 @@ jobs:
         with:
           app-name: 'SmartSummarize'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_07DA1FAE34E245FA977B486E2D44C15B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CC411F9DE5AF4F6FA6F65459CBBE988B }}
